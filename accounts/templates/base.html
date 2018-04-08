@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'registration/bootstrap/css/bootstrap.min.css' %}" />
+    <script src="{% static 'registration/bootstrap/js/bootstrap.min.js' %}"></script>
+    <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+</head>
+<body>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: joshuajiniran@yahoo.com
+Date: Sat, 07 Apr 2018 19:50:30 -0000
+Message-ID: 
+ <152313063085.10303.15877510673455966546@projosh-HP-Pavilion-15-Notebook-PC>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/MQ/4v5-62354e06aa2726adf9fc/
+
+Your username, in case you've forgotten: Admin
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------
