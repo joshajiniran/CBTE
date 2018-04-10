@@ -10,9 +10,26 @@
     <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
 </head>
 <body>
+    <nav class="navbar navbar-default">
+        <div  class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{% url 'home' %}">Auth CBTE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'signup' %}">Account</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
     <main>
         {% block content %}
         {% endblock %}
     </main>
+    <footer class="container-fluid text-center">
+        <p>Auth CBTE Application&trade; 2018</p>
+        <p>All Right Reserved </p>
+    </footer>
 </body>
 </html>
